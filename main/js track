@@ -3,6 +3,10 @@
 
 
 //finished:
+
+//Annalyn's Infiltration
+//things learned: don't be redundant with booleans. If a parameter is a boolean, don't "= true" with it in the code. Just list it or !it.
+
 // - Lucian's Luscious Lasagna
 const PREPARATION_MINUTES_PER_LAYER = 2;
 
