@@ -1,6 +1,22 @@
 
-// ongoing https://exercism.org/tracks/javascript/exercises/annalyns-infiltration/edit
+// ongoing
+https://exercism.org/tracks/javascript/exercises/book-store/edit
 
+export const cost = (books) => {
+  books.sort();
+  let total = 0;
+  if (books.length <= 1) {
+    total += 800;
+  } else {
+  for (let i = 0; i < books.length; i++) {
+    if (books[i] = books[i+1]) {
+      total += 800;
+      total *= .05;
+  }
+  }
+  }
+  return total;
+}
 
 //finished:
 
