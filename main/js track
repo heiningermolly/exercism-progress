@@ -39,8 +39,10 @@ export const cost = (books) => {
 
 
 //finished:
+//Pangram
+//things learned: needed to change the string to an array for it to work with special characters
 
-//4- Freelancer Rates
+//Freelancer Rates
 //things learned: LOL I am bad at math. Also learned about Math.floor and Math.ceil
 
 //Annalyn's Infiltration
