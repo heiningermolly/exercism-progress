@@ -2,6 +2,24 @@
 // ongoing
 https://exercism.org/tracks/javascript/exercises/book-store/edit
 
+//totally stuck on how to handle this...
+export const cost = (books) => {
+  books.sort();
+  let total = 0;
+  let arr2 = [];
+
+  for (let i = 0; i < books.length; i++) {
+
+    if (books[i] = books[i+1]) {
+      arr2.push(books.shift());
+    }
+  }
+
+
+
+  return total;
+}
+
 export const cost = (books) => {
   books.sort();
   let total = 0;
@@ -17,6 +35,8 @@ export const cost = (books) => {
   }
   return total;
 }
+
+
 
 //finished:
 
