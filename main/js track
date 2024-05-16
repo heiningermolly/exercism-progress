@@ -43,6 +43,14 @@ export const cost = (books) => {
 
 
 //finished:
+
+//Two-Fer
+//I feel very cute and clever for remembering about default paramenters.
+
+export const twoFer = (name = "you") => {
+  return "One for " + name + ", one for me.";
+};
+
 //Pangram
 //things learned: needed to change the string to an array for it to work with special characters
 
