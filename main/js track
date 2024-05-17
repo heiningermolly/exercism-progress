@@ -44,6 +44,11 @@ export const cost = (books) => {
 
 //finished:
 
+
+
+//Elyses Looping Enchantments
+//I liked looking up the top-voted solution and seeing the way they used the ? as a conditional operator, plus involving the use of boolean parameters in the code itself.
+
 //Two-Fer
 //I feel very cute and clever for remembering about default paramenters.
 
